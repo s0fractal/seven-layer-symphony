@@ -53,6 +53,9 @@ path = "src/lib.rs"
 
 [target.wasm32-unknown-unknown]
 
+[profile.dev]
+panic = "abort"
+
 [profile.release]
 opt-level = "z"
 lto = true

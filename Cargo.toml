@@ -25,7 +25,7 @@ panic = "abort"     # No unwinding
 panic = "abort"     # No unwinding in dev too
 
 [lib]
-crate-type = ["cdylib", "rlib"]
+crate-type = ["rlib"]
 
 # Target WASM
 [target.wasm32-unknown-unknown]
