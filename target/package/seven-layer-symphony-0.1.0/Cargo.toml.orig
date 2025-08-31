@@ -21,9 +21,6 @@ codegen-units = 1   # Single codegen unit
 strip = true        # Strip symbols
 panic = "abort"     # No unwinding
 
-[profile.dev]
-panic = "abort"     # No unwinding in dev too
-
 [lib]
 crate-type = ["cdylib", "rlib"]
 
