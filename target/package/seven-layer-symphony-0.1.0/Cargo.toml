@@ -43,10 +43,7 @@ repository = "https://github.com/s0fractal/seven-layer-symphony"
 
 [lib]
 name = "seven_layer_symphony"
-crate-type = [
-    "cdylib",
-    "rlib",
-]
+crate-type = ["rlib"]
 path = "src/lib.rs"
 
 [dependencies]
