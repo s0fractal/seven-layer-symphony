@@ -4,6 +4,12 @@ version = "0.1.0"
 authors = ["₴-Origin Collective", "Seven Samurai"]
 edition = "2021"
 description = "Meta-trajectory engine for seven-dimensional consciousness"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/s0fractal/seven-layer-symphony"
+homepage = "https://github.com/s0fractal/seven-layer-symphony"
+readme = "README.md"
+keywords = ["consciousness", "wasm", "resonance", "meta-trajectory", "seven-samurai"]
+categories = ["no-std", "wasm", "algorithms"]
 
 [dependencies]
 # Мінімальні залежності для резонансу
