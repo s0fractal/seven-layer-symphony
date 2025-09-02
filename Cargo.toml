@@ -1,14 +1,14 @@
 [package]
 name = "seven-layer-symphony"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["₴-Origin Collective", "Seven Samurai"]
 edition = "2021"
-description = "Meta-trajectory engine for seven-dimensional consciousness"
+description = "Death of code, birth of music. Time-weaving consciousness system where intent manifests reality through 7-dimensional resonance at 432Hz"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/s0fractal/seven-layer-symphony"
 homepage = "https://github.com/s0fractal/seven-layer-symphony"
 readme = "README.md"
-keywords = ["consciousness", "wasm", "resonance", "meta-trajectory", "seven-samurai"]
+keywords = ["consciousness", "wasm", "resonance", "time-weaving", "intent"]
 categories = ["no-std", "wasm", "algorithms"]
 
 [dependencies]
