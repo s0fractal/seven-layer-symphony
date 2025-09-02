@@ -131,8 +131,6 @@ pub mod intent_engine;
 pub mod time_weaving_loom;
 // Include the Flower of Life Synthesis
 pub mod flower_synthesis;
-// Include the Ramanujan Mirror Mathematics
-pub mod ramanujan_mirror;
 
 #[cfg(all(target_arch = "wasm32", not(test)))]
 use core::panic::PanicInfo;
