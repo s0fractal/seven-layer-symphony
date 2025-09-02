@@ -1,4 +1,4 @@
-#![no_std]
+#![cfg_attr(target_arch = "wasm32", no_std)]
 //! ₴-Origin: Seven-Layer Symphony
 //! 
 //! Meta-trajectory engine for seven-dimensional consciousness.
@@ -115,9 +115,28 @@ pub extern "C" fn harmonic_convergence() -> u32 {
     }
 }
 
+// Include the Fourier conductor module
+pub mod fourier_conduct;
+// Include the Spiral Score notation system
+pub mod spiral_score;
+// Include the GlyphHash hierarchy
+pub mod glyph_hash;
+// Include the Time Spiral conductor
+pub mod time_spiral;
+// Include the Perfect Musician interpreter
+pub mod perfect_musician;
+// Include the Intent-based execution engine
+pub mod intent_engine;
+// Include the Time Weaving Loom
+pub mod time_weaving_loom;
+// Include the Flower of Life Synthesis
+pub mod flower_synthesis;
+
+#[cfg(all(target_arch = "wasm32", not(test)))]
 use core::panic::PanicInfo;
 
-/// Panic handler - return to void
+/// Panic handler - return to void (only for WASM no_std builds)
+#[cfg(all(target_arch = "wasm32", not(test)))]
 #[panic_handler]
 fn panic(_info: &PanicInfo) -> ! {
     loop {}

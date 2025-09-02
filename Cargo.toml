@@ -25,7 +25,11 @@ panic = "abort"     # No unwinding
 panic = "abort"     # No unwinding in dev too
 
 [lib]
-crate-type = ["rlib"]
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "symphony"
+path = "src/main.rs"
 
 # Target WASM
 [target.wasm32-unknown-unknown]
